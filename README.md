@@ -90,5 +90,4 @@ Includes four wallpapers featuring alpine, wooded, stream, and desert outposts.
 
   #### Wooded mountain stream
 
-  ![Outpost beside a wooded mountain stream](backgrounds/terminal-outpost-05-
-  wooded-stream.png)
+  ![Outpost beside a wooded mountain stream](backgrounds/terminal-outpost-05-wooded-stream.png)
