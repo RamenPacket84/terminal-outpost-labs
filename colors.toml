@@ -1,0 +1,32 @@
+mode = "dark"
+
+# Digital Outpost Labs — alpine night, radio glow, terminal phosphor.
+accent = "#5fc9c7"
+selection = "#29464b"
+muted = "#52636b"
+
+background = "#101719"
+dark_background = "#0b1012"
+darker_background = "#070b0d"
+lighter_background = "#1a272b"
+
+foreground = "#d6dedb"
+dark_foreground = "#718187"
+light_foreground = "#b8c6c4"
+bright_foreground = "#eef4f0"
+
+red = "#d66f63"
+yellow = "#d2ad67"
+orange = "#c78656"
+green = "#89b982"
+cyan = "#5fc9c7"
+blue = "#6b9fc6"
+magenta = "#a58ab8"
+brown = "#8d684d"
+
+bright_red = "#ee8375"
+bright_yellow = "#e4c47e"
+bright_green = "#a1d39a"
+bright_cyan = "#7dddd8"
+bright_blue = "#82b7df"
+bright_magenta = "#bea1d0"
