@@ -12,18 +12,33 @@ omarchy theme install https://github.com/RamenPacket84/terminal-outpost-labs.git
 The optional Fastfetch configuration includes a custom Terminal Outpost Labs
 terminal-art logo and matching colors.
 
-From the root of this repository, back up any existing Fastfetch configuration
-and install the included files:
+After installing the theme with `omarchy theme install`, run:
 
 ```bash
-mkdir -p ~/.config/fastfetch
+(
+set -e
 
-if [ -f ~/.config/fastfetch/config.jsonc ]; then
-  cp ~/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc.backup
+THEME_SOURCE="$HOME/.config/omarchy/themes/terminal-outpost-labs"
+FASTFETCH_TARGET="$HOME/.config/fastfetch"
+
+if [ ! -f "$THEME_SOURCE/fastfetch/config.jsonc" ]; then
+  echo "Terminal Outpost Labs Fastfetch files were not found."
+  exit 1
 fi
 
-cp fastfetch/terminal-outpost-labs.txt ~/.config/fastfetch/
-cp fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+mkdir -p "$FASTFETCH_TARGET"
+
+if [ -f "$FASTFETCH_TARGET/config.jsonc" ]; then
+  cp "$FASTFETCH_TARGET/config.jsonc" \
+     "$FASTFETCH_TARGET/config.jsonc.backup"
+fi
+
+cp "$THEME_SOURCE/fastfetch/terminal-outpost-labs.txt" \
+   "$FASTFETCH_TARGET/terminal-outpost-labs.txt"
+
+cp "$THEME_SOURCE/fastfetch/config.jsonc" \
+   "$FASTFETCH_TARGET/config.jsonc"
+)
 ```
 
 Preview the result:
@@ -32,11 +47,21 @@ Preview the result:
 fastfetch
 ```
 
-The included `config.jsonc` replaces your current Fastfetch layout. To restore
-your previous configuration:
+The included `config.jsonc` replaces your current Fastfetch layout. If an
+existing configuration was backed up, restore it with:
 
 ```bash
-mv ~/.config/fastfetch/config.jsonc.backup ~/.config/fastfetch/config.jsonc
+if [ -f ~/.config/fastfetch/config.jsonc.backup ]; then
+  mv ~/.config/fastfetch/config.jsonc.backup \
+     ~/.config/fastfetch/config.jsonc
+fi
+```
+
+If `fastfetch` does not display the new logo, check whether your shell is
+overriding the command:
+
+```bash
+type -a fastfetch
 ```
 
 ## Wallpapers
