@@ -67,3 +67,28 @@ type -a fastfetch
 ## Wallpapers
 
 Includes four wallpapers featuring alpine, wooded, stream, and desert outposts.
+
+## Gallery
+
+  ### Fastfetch
+
+  ![Terminal Outpost Labs Fastfetch](assets/fastfetch.png)
+
+  ### Wallpapers
+
+  #### Alpine outpost
+
+  ![Alpine outpost](backgrounds/terminal-outpost-02.png)
+
+  #### Wooded mountains
+
+  ![Wooded mountain outpost](backgrounds/terminal-outpost-03-wooded-mountains.png)
+
+  #### Desert outpost
+
+  ![Desert outpost](backgrounds/terminal-outpost-04-desert.png)
+
+  #### Wooded mountain stream
+
+  ![Outpost beside a wooded mountain stream](backgrounds/terminal-outpost-05-
+  wooded-stream.png)
