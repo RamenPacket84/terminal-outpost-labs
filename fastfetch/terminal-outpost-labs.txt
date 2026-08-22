@@ -12,5 +12,5 @@ $5     ≋≋≋╲
 $5  ≋≋≋    ╲__≋≋≋
 $5             ╲____≋≋≋
 
-$1 DIGITAL $3OUTPOST $5LABS
+$1 TERMINAL $3OUTPOST $5LABS
 $4   alpine systems online

@@ -1,6 +1,6 @@
 mode = "dark"
 
-# Digital Outpost Labs — alpine night, radio glow, terminal phosphor.
+# Terminal Outpost Labs — alpine night, radio glow, terminal phosphor.
 accent = "#5fc9c7"
 selection = "#29464b"
 muted = "#52636b"

@@ -1,11 +1,11 @@
-## Digital Outpost Labs
+## Terminal Outpost Labs
 
 Dark, minimalist Omarchy theme.
 
 ## Installation
 
 Run command:
-omarchy theme install https://github.com/RamenPacket84/digital-outpost-labs.git
+omarchy theme install https://github.com/RamenPacket84/terminal-outpost-labs.git
 
 ## Fastfetch
 
